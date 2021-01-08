@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="main1.css">
+    <title>Ticket</title>
+</head>
+
+<body>
+    <!--
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./home/index.html"><img src="images/Tickitz 1tickitzungu.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Cinemas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <li class="nav-link active dropdown" style="list-style: none;">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Location
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Jakarta</a></li>
+                          <li><a class="dropdown-item" href="#">Bandung</a></li>                          
+                          <li><a class="dropdown-item" href="#">Depok</a></li>
+                        </ul>
+                    </li>
+                    <div class="border rounded-3">
+                        <input class="border-0 ps-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn border-0" type="submit"><img src="images/Vectorsearch.png"></button>
+                    </div>                    
+                </form>
+                <button class="btn sign-up ms-3 pt-1" type="submit">Sign up</button>
+            </div>
+        </div>
+    </nav>
+    -->
+    
+    <section class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./home/index.html"><img src="images/Tickitz 1tickitzungu.png" class="img-fluid"
+                        alt="..."></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <div class="input-group border search-mobile">
+                        <input class="form-control border-0" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn bg-transparent border-start-0" type="button" id="button-addon2">
+                            <img src="images/Vectorsearch.png">
+                        </button>
+                    </div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Cinemas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Buy Tickets</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active text-dark dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Location
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">                        
+                        <div class="input-group border search-web">
+                            <input class="form-control border-0" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn bg-transparent border-start-0" type="button" id="button-addon2">
+                                <img src="images/Vectorsearch.png">
+                            </button>
+                        </div>
+                    </form>
+                    
+                    <p class="text-center pt-3 pb-3">
+                        © 2020 Tickitz. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!--section2-->
+    <div class="container-fluid ticket-web" id="col2">
+        <div class="row bg-white" id="bgticket">
+            <div class="col-sm text-center pt-5 ">
+                <p class="fs-3 fw-bold">Proof of Payment</p>
+            </div>
+            <!---->
+            <div class="raw p-5" id="ticket">
+                <div class="row">
+                    <!--kiri-->
+                    <div class="col-sm-8 headerleft"
+                        style="background-color: #5F2EEA;border-right: rgb(209, 202, 202) dotted;">
+                        <div class="raw d-flex justify-content-between headerticket">
+                            <img src="images/tickitz 1.png" class="mt-2" alt="">
+                            <p class="pt-3 me-5 text-white">Admit one</p>
+                        </div>
+                    </div>
+                    <!--kanan-->
+                    <div class="col-sm-4 headerright" style="background-color: #5F2EEA">
+                        <div class="raw headerticket text-center">
+                            <img src="images/tickitz 1.png" class="mt-2" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row kiri">
+                    <div class="col-sm-8 pe-5 leftbottom" style="border-right:rgb(209, 202, 202) dotted;">
+                        <div class="raw pt-4">
+                            <p class="text-muted title">Movies</p>
+                        </div>
+                        <div class="raw">
+                            <p class="fw-bold">Spider-Man: Homecoming</p>
+                        </div>
+                        <div class="raw d-flex justify-content-between pe-2">
+                            <div>
+                                <p class="text-muted title">Date</p>
+                                <p class="fw-bold">07 July</p>
+                            </div>
+                            <div>
+                                <p class="text-muted title">Time</p>
+                                <p class="fw-bold">02:00pm</p>
+                            </div>
+                            <div>
+                                <p class="text-muted title">Category</p>
+                                <p class="fw-bold">PG-13</p>
+                            </div>
+                        </div>
+                        <div class="raw d-flex justify-content-between">
+                            <div>
+                                <p class="text-muted title">Count</p>
+                                <p class="fw-bold">3 pieces</p>
+                            </div>
+                            <div>
+                                <p class="text-muted title">Seats</p>
+                                <p class="fw-bold">C4, C5, C6</p>
+                            </div>
+                            <div>
+                                <p class="text-muted title">Price</p>
+                                <p class="fw-bolder fs-5">$30.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 rightbottom">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <div class="raw pt-4">
+                                    <p class="text-muted title">Movies</p>
+                                </div>
+                                <div class="raw">
+                                    <p class="fw-bold">Spider-Man: Home...</p>
+                                </div>
+                                <div class="raw d-flex justify-content-between">
+                                    <div>
+                                        <p class="text-muted title">Date</p>
+                                        <p class="fw-bold">07 July</p>
+                                    </div>
+                                    <div class="me-2 pe-1">
+                                        <p class="text-muted title">Time</p>
+                                        <p class="fw-bold">02:00pm</p>
+                                    </div>
+                                </div>
+                                <div class="raw d-flex justify-content-between">
+                                    <div>
+                                        <p class="text-muted title">Count</p>
+                                        <p class="fw-bold">3 pieces</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-muted title">Seats</p>
+                                        <p class="fw-bold">C4, C5, C6</p>
+                                    </div>
+                                </div>
+                                <div class="raw d-flex justify-content-between">
+                                    <div class="invisible">
+                                        <p class="text-muted title">Count</p>
+                                        <p class="fw-bold">3 pieces</p>
+                                    </div>
+                                    <div class="pe-3 me-1">
+                                        <p class="text-muted title">Category</p>
+                                        <p class="fw-bold">PG-13</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-1">
+                                <div class="raw pt-3">
+                                    <img src="images/Bitmap Copy 10barcode1.png" alt="">
+                                    <img src="images/Bitmap Copy 9barcode2.png" alt="">
+                                    <img src="images/Bitmap Copy 7barcode3.png" alt="">
+                                    <img src="images/Bitmap Copy 8barcode4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pb-5">
+                <span>
+                    <button class="btn bg-light border rounded-3 btn-download" type="submit">
+                        <img src="images/download 1download.png" alt="">
+                        Download
+                    </button>
+                </span>
+                <span>
+                    <button class="btn bg-light border rounded-3 btn-print" type="submit">
+                        <img src="images/printer 1print.png" alt="">
+                        Print
+                    </button>
+                </span>
+            </div>
+        </div>
+    </div>
+    <section class="container-fluid ticket-mobile p-5">
+        <div class="raw bg-white pt-5 pb-5 ticket-paper">
+            <div class="col-sm text-center">
+                <img src="images/bx_bxs-check-circlecheckcircle.png" alt="">
+                <p class="fs-3 fw-bold mt-2 mb-2">Thank You!</p>
+                <p class="text-muted">Your transaction was successful</p>
+            </div>
+            <div class="raw text-center pt-4 pb-5 barcode-horizontal">
+                <img src="images/Bitmap Copy 8barcodehorizonta.png" alt="">
+                <img src="images/Bitmap Copy 7horizontal.png" alt="">
+                <img src="images/Bitmap Copy 9horizontal.png" alt="">
+                <img src="images/Bitmap Copy 10horizontal.png" alt="">
+            </div>
+            <div class="raw mt-5 ms-3 d-flex justify-content-between">
+                <div class="w-75">
+                    <p class="ticket-heading-mobile mb-1">Movie</p>
+                    <p class="ticket-detail-mobile fw-bold">Spider-Man: ..</p>
+                </div>
+                <div class="w-25">
+                    <p class="ticket-heading-mobile mb-1">Category</p>
+                    <p class="ticket-detail-mobile fw-bold">PG-13</p>
+                </div>
+            </div>
+            <div class="raw ms-3 d-flex justify-content-between">
+                <div class="w-75">
+                    <p class="ticket-heading-mobile mb-1">Date</p>
+                    <p class="ticket-detail-mobile fw-bold">07 Jul</p>
+                </div>
+                <div class="w-25">
+                    <p class="ticket-heading-mobile mb-1">Time</p>
+                    <p class="ticket-detail-mobile fw-bold">2:00pm</p>
+                </div>
+            </div>
+            <div class="raw ms-3 d-flex justify-content-between">
+                <div class="w-75">
+                    <p class="ticket-heading-mobile mb-1">Count</p>
+                    <p class="ticket-detail-mobile fw-bold">3 pcs</p>
+                </div>
+                <div class="w-25">
+                    <p class="ticket-heading-mobile mb-1">Seats</p>
+                    <p class="ticket-detail-mobile fw-bold">C4, C5, C6</p>
+                </div>
+            </div>
+            <div class="raw d-flex justify-content-between border rounded-3 m-3 pt-3 fw-bold ticket-total">
+                <p class="w-25 ps-3">Total</p>
+                <p class="w-25">$30.00</p>
+            </div>
+        </div>
+    </section>
+    <!--section3-->
+    <section class="container section4 pt-5">
+        <div class="row">
+            <div class="col-sm-4 ps-3 pe-0 text-muted">
+                <a href="#"><img src="images/Tickitz 1tickitzungu.png" class="img-fluid" alt="..."></a>
+                <p class="pt-5">Stop waiting in line. Buy tickets</p>
+                <p>conveniently, watch movies quietly.</p>
+            </div>
+            <div class="col-sm ps-3 pb-3 explore">
+                <h4 class="pb-3">Explore</h4>
+                <p>Cinemas</p>
+                <p>Movies List</p>
+                <p>My Ticket</p>
+                <p>Notification</p>
+            </div>
+            <div class="col-sm ps-3">
+                <h4>Our Sponsor</h4>
+                <div class=" sponsor">
+                    <a href="#"><img src="images/Vectorsponsor1.jpg" class="img-fluid pt-3 pb-3" alt="..."></a>
+                    <a href="#"><img src="images/Vectorsponsor2.jpg" class="img-fluid pt-3 pb-3" alt="..."></a>
+                    <a href="#"><img src="images/Vectorsponsor3.jpg" class="img-fluid pt-3 pb-3" alt="..."></a>
+                </div>
+
+            </div>
+            <div class="col-sm ps-0 d-flex flex-column">
+                <div class="follow-us-mobile pt-3">
+                    <h4 class="ps-3">Follow us</h4>
+                    <a class="btn text-decoration-none" href="#" role="button">
+                        <img src="images/eva_facebook-outlinefacebook.png">
+                    </a>
+                    <a class="btn text-decoration-none" href="#" role="button">
+                        <img src="images/bx_bxl-instagramig.png">
+                    </a>
+                    <a class="btn text-decoration-none" href="#" role="button">
+                        <img src="images/eva_twitter-outlinetwitter.png">
+                    </a>
+                    <a class="btn text-decoration-none" href="#" role="button">
+                        <img src="images/feather_youtubeyoutube.png">
+                    </a>
+                </div>
+                <div class="follow-us-web d-flex flex-column position-absolute">
+                    <h4 class="ps-3">Follow us</h4>
+                    <span>
+                        <a class="btn text-decoration-none" href="#" role="button">
+                            <img src="images/eva_facebook-outlinefacebook.png">
+                            Tickitz Cinema id
+                        </a>
+                    </span>
+                    <span>
+                        <a class="btn text-decoration-none" href="#" role="button">
+                            <img src="images/bx_bxl-instagramig.png">
+                            tickitz.id
+                        </a>
+                    </span>
+                    <span>
+                        <a class="btn text-decoration-none" href="#" role="button">
+                            <img src="images/eva_twitter-outlinetwitter.png">
+                            tickitz.id
+                        </a>
+                    </span>
+                    <span>
+                        <a class="btn text-decoration-none" href="#" role="button">
+                            <img src="images/feather_youtubeyoutube.png">
+                            Tickitz Cinema id
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section6-->
+    <footer class="container">
+        <div class="col-sm">
+            <p class="text-center pt-3 pb-3">
+                © 2020 Tickitz. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
