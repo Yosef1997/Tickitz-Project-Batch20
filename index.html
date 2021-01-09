@@ -15,18 +15,20 @@
 
 <body>
     <!--section1-->
-    <section class="container">
+    <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html"><img src="images/Tickitz 1tickitzungu.png" class="img-fluid"
-                        alt="..."></a>
+                <a class="navbar-brand" href="./home/index.html">
+                    <img src="images/Tickitz 1tickitzungu.png" class="img-fluid" alt="...">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button> 
+                </button>
+
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <div class="input-group border search-mobile">
+                    <div class="input-group border rounded-3 search-mobile">
                         <input class="form-control border-0" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn bg-transparent border-start-0" type="button" id="button-addon2">
                             <img src="images/Vectorsearch.png">
@@ -34,66 +36,56 @@
                     </div>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active text-dark" aria-current="page" href="#">Movies</a>
+                            <a class="nav-link active" aria-current="page" href="#">Movies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Cinemas</a>
+                            <a class="nav-link active" aria-current="page" href="#">Cinemas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Buy Tickets</a>
+                            <a class="nav-link active" aria-current="page" href="#">Buy Ticket</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item nav-link active dropdown pt-2 li-mobile">
+                            <a class="link-dark text-decoration-none dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Location
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
+                        <li class="nav-item li-mobile">
+                            <a class="nav-link active" aria-current="page" href="#">Sign up</a>
+                        </li>
+                        <li class="nav-item li-mobile">
+                            <p class="text-center">
+                                © 2020 Tickitz. All Rights Reserved.
+                            </p>
+                        </li>
                     </ul>
-                    <form class="d-flex">
-                        <!--
-                        <button class="bg-transparent btn-outline-light me-2" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <img src="images/Vectorsearch.png">
-                        </button>
-                        -->
-                        <div class="input-group border search-web">
-                            <input class="form-control border-0" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn bg-transparent border-start-0" type="button" id="button-addon2">
-                                <img src="images/Vectorsearch.png">
+                    <form>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Location
                             </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
                         </div>
-
-
+                        <span class="d-flex border rounded-3">
+                            <input class="border-0 ms-2 me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn" type="submit"><img src="images/Vectorsearch.png"></button>
+                        </span>
+                        <a href="./sign-up/index.html" class="btn btn-sign-up">Sign up</button></a>
                     </form>
-                   
-                    <a href="./sign-up/index.html" class="btn sign-up ms-3">
-                        <button type="submit" class="btn fw-bold">Sign up</button>
-                    </a>
-                    
-                    <p class="text-center pt-3 pb-3 text-center">
-                        © 2020 Tickitz. All Rights Reserved.
-                    </p>
-
                 </div>
             </div>
         </nav>
-        <!--
-            <div class="collapse" id="navbarToggleExternalContent">
-                <div class="bg-dark p-4">
-                    <h5 class="text-white h4">Collapsed content</h5>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
-            </div>
-        -->
-
-
-    </section>
+    </header>
     <!--section2-->
     <section class="container section2">
         <div class="row">

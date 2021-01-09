@@ -8,9 +8,29 @@ nav ul li a{
     margin-left: 50px;
 }
 
+nav form {
+    display: flex;
+
+}
+
 .search-mobile{
-    opacity: 0;
-    position: absolute;
+    display: none;
+}
+
+nav .li-mobile {
+    display: none;
+}
+
+nav p {
+    display: none;    
+}
+
+nav form .btn-sign-up {
+    background-color: #5F2EEA;
+    margin-left: 5px;
+    border: .5px #5F2EEA solid;
+    border-radius: 10px;
+    color: white;
 }
 
 .section2 p {
@@ -106,22 +126,6 @@ footer p{
 
 .follow-us-mobile {
     opacity: 0;
-    
-}
-
-nav .sign-up {
-    border: 2px  #5F2EEA solid;
-    border-radius: 10px;
-    background-color:  #5F2EEA;
-    color: white;
-}
-
-nav .sign-up .btn{
-    color: white;
-}
-
-nav p {
-    display: none;
     
 }
 
@@ -282,7 +286,12 @@ hr {
     opacity: 0;
     position: absolute;
 }
-
+.payorder-mobile {
+    display: none;
+}
+#payment-hr {
+    width: 100%;
+}
 /*orderpage*/
 .section-order-mobile {
     opacity: 0;
@@ -316,6 +325,24 @@ hr {
 
 }
 @media only screen and (max-width: 576px) {
+    /*navbar*/
+    nav p{
+        display: block;
+        font-size: 12px;
+        font-family: 'Mulish', sans-serif;
+    }
+    nav form {
+        display: none;
+
+    }
+    nav .li-mobile {
+        display: block;
+    }
+    .search-mobile{
+        display: flex;
+    }
+    
+    /*movie detail*/
     .btn-time a{
         margin-right: 5px;
     }
@@ -325,6 +352,7 @@ hr {
     hr {
         width: 30%;
     }
+    /*last section*/
     .section4 .explore p {
         display: inline;
         margin-right: 20px;
@@ -342,28 +370,7 @@ hr {
     .follow-us-web {
         opacity: 0;
     }
-    nav p{
-        opacity: 100;
-        font-size: 12px;
-        position: relative;
-    }
-    .search-mobile{
-        opacity: 100;
-        position: relative;
-    }
-    .search-web {
-        opacity: 0;
-        position: absolute;
-    }
-    nav .sign-up {
-        padding-left: 20px;
-        border: none;
-        background-color: transparent;
-    }
-    nav .sign-up {
-        color:black;
-        padding-left: 33px;
-    }
+    /**/
     .section2 .kiri {
         position: relative;
     }
@@ -373,10 +380,10 @@ hr {
     .section2 .kanan {
         margin-top: 40px;
     }
+    /*home*/
     .home-email {
         text-align: center;
     }
-    
     .home-join {
         text-align: center;
         padding-top: 10px;
@@ -384,7 +391,7 @@ hr {
     .btn-email{
         text-align: center;
     }
-    /*ticket*/
+    /*payment*/
     #payment-info {
         opacity: 0;
         position: absolute;
@@ -425,6 +432,10 @@ hr {
         opacity: 0;
         position: absolute;
     }
+    .payorder-mobile {
+        display: block;
+    }
+    /*orderpage*/
     .section-order-web {
         opacity: 0;
         position: absolute;
@@ -442,5 +453,6 @@ hr {
     .ticket-web {
         display: none;
     }
+    
     
 }

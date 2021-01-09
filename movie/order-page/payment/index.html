@@ -15,11 +15,12 @@
 
 <body>
     <!--section1-->
-    <section class="container">
+    <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
-                <a class="navbar-brand" href="./home/index.html"><img src="images/Tickitz 1tickitzungu.png" class="img-fluid"
-                        alt="..."></a>
+                <a class="navbar-brand" href="./home/index.html">
+                    <img src="images/Tickitz 1tickitzungu.png" class="img-fluid" alt="...">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -27,7 +28,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <div class="input-group border search-mobile">
+                    <div class="input-group border rounded-3 search-mobile">
                         <input class="form-control border-0" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn bg-transparent border-start-0" type="button" id="button-addon2">
                             <img src="images/Vectorsearch.png">
@@ -35,73 +36,64 @@
                     </div>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active text-dark" aria-current="page" href="#">Movies</a>
+                            <a class="nav-link active" aria-current="page" href="#">Movies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Cinemas</a>
+                            <a class="nav-link active" aria-current="page" href="#">Cinemas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Buy Tickets</a>
+                            <a class="nav-link active" aria-current="page" href="#">Buy Ticket</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item nav-link active dropdown pt-2 li-mobile">
+                            <a class="link-dark text-decoration-none dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Location
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
+                        <li class="nav-item li-mobile">
+                            <a class="nav-link active" aria-current="page" href="#">Sign up</a>
+                        </li>
+                        <li class="nav-item li-mobile">
+                            <p class="text-center">
+                                © 2020 Tickitz. All Rights Reserved.
+                            </p>
+                        </li>
                     </ul>
-                    <form class="d-flex">
-                        <!--
-                        <button class="bg-transparent btn-outline-light me-2" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <img src="images/Vectorsearch.png">
-                        </button>
-                        -->
-                        <div class="input-group border search-web">
-                            <input class="form-control border-0" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn bg-transparent border-start-0" type="button" id="button-addon2">
-                                <img src="images/Vectorsearch.png">
+                    <form>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Location
                             </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
                         </div>
-
-
+                        <span class="d-flex border rounded-3">
+                            <input class="border-0 ms-2 me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn" type="submit"><img src="images/Vectorsearch.png"></button>
+                        </span>
+                        <a href="./sign-up/index.html" class="btn btn-sign-up">Sign up</button></a>
                     </form>
-                    <a href="#" class="sign-up ms-3">
-                        <button class="btn">Sign Up</button>
-                    </a>
-
-                    <p class="text-center pt-3 pb-3 text-center">
-                        © 2020 Tickitz. All Rights Reserved.
-                    </p>
-
                 </div>
             </div>
         </nav>
-        <!--
-            <div class="collapse" id="navbarToggleExternalContent">
-                <div class="bg-dark p-4">
-                    <h5 class="text-white h4">Collapsed content</h5>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
-            </div>
-        -->
-
-
-    </section>
+    </header>
     <!--section2-->
-    <section class="container-fluid bg-light pb-5 pt-5 ps-5 mb-3">
+    <section class="container-fluid bg-light p-5 mb-3">
         <div class="row">
             <div class="col-sm col-lg-7">
                 <div class="raw" id="payment-info">
                     <p class="fs-4 fw-bold">Payment Info</p>
                 </div>
-                <div class="raw bg-white p-4">
+                <div class="raw bg-white p-4 rounded-3">
                     <div class="raw d-flex flex-raw justify-content-between date-time">
                         <p class="text-muted">Date & time</p>
                         <p>Tuesday, 07 July 2020 at 02:00pm</p>
@@ -120,7 +112,7 @@
                     <div class="raw d-flex flex-raw justify-content-between number-of-tickets">
                         <p class="text-muted">Number of tickets</p>
                         <p>3 pieces</p>
-                    </div>                    
+                    </div>
                     <hr id="payment-hr">
                     <div class="raw d-flex flex-raw justify-content-between">
                         <p class="text-muted">Total Payment</p>
@@ -130,7 +122,7 @@
                 <div class="raw pt-4 pb-2">
                     <p class="fs-4 fw-bold">Choose a Payment Method</p>
                 </div>
-                <div class="raw bg-white p-4">
+                <div class="raw bg-white p-4 rounded-3">
                     <div class="pb-3 d-flex justify-content-around">
                         <button class="btn b-white border" style="width: 8rem;" type="submit">
                             <img src="images/logos_google-paygpay.png" alt="">
@@ -156,7 +148,8 @@
                             <img src="images/Layer x0020 1bca.png" alt="">
                         </button>
                         <button class="btn b-white border btn-bank-mobile" style="width: 8rem;" type="submit">
-                            <img src="images/Bank BRI (Bank Rakyat Indonesia) Logo (SVG-240p) - FileVector69 1bri.png" alt="">
+                            <img src="images/Bank BRI (Bank Rakyat Indonesia) Logo (SVG-240p) - FileVector69 1bri.png"
+                                alt="">
                         </button>
                         <button class="btn b-white border" style="width: 8rem;" type="submit">
                             <img src="images/Vectorovo.png" alt="">
@@ -164,11 +157,11 @@
                     </div>
                     <span class="d-flex text-muted ps-5 pe-5 pt-3">
                         <hr class="w-50">
-                        <p class="text-muted text-center ps-3 pe-3 fs-6">Or</p>
+                        <p class="text-muted text-center ps-2 fs-6">Or</p>
                         <hr class="w-50">
                     </span>
                     <div class="raw text-center">
-                        <p class="text-dark fs-6">Pay via cash. 
+                        <p class="text-dark fs-6">Pay via cash.
                             <span>
                                 <a class="fs-6 fw-bold" style="color:  #5F2EEA;" href="#">See how it work</a>
                             </span>
@@ -176,44 +169,45 @@
                     </div>
                 </div>
                 <div class="raw pt-5 pb-5 d-flex justify-content-between btn-payment">
-                    <a class="btn bg-light w-25" style="border-color: #5F2EEA; color: #5F2EEA;" 
-                    href="#" role="button">Prvious step</a>
-                    <a class="btn w-25" style="border-color: #5F2EEA; color:white; background-color: #5F2EEA;" 
-                    href="./ticket/index.html" role="button">Pay your order</a>
+                    <a class="btn bg-light w-25" style="border-color: #5F2EEA; color: #5F2EEA;" href="#"
+                        role="button">Prvious step</a>
+                    <a class="btn w-25" style="border-color: #5F2EEA; color:white; background-color: #5F2EEA;"
+                        href="./ticket/index.html" role="button">Pay your order</a>
                 </div>
             </div>
             <div class="col-sm col-lg-5">
                 <div class="raw">
                     <p class="fs-4 fw-bold">Personal Info</p>
                 </div>
-                <div class="raw bg-white p-4">
+                <div class="raw bg-white p-4 rounded-3">
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label text-muted">Full Name</label>
                         <span class="form-control w-100">
-                        <input type="name" class="form-control border-0" id="exampleFormControlInput1"
-                            placeholder="Max Wrist">
+                            <input type="name" class="form-control border-0" id="exampleFormControlInput1"
+                                placeholder="Max Wrist">
                         </span>
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label text-muted">Email</label>
                         <span class="form-control w-100">
-                        <input type="email" class="form-control border-0" id="exampleFormControlInput1"
-                            placeholder="maxwrist@gmail.com">
+                            <input type="email" class="form-control border-0" id="exampleFormControlInput1"
+                                placeholder="maxwrist@gmail.com">
                         </span>
                     </div>
                     <div class="mb-3">
                         <label for="inputPassword" class="form-label text-muted">Password</label>
                         <span class="d-flex justify-content-between form-control w-100">
                             <div class="dropdown">
-                                <button class="btn bg-transparent border-end dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                                  +62
+                                <button class="btn bg-transparent border-end dropdown-toggle" type="button"
+                                    id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                    +62
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                  <li><button class="dropdown-item" type="button">+61</button></li>
-                                  <li><button class="dropdown-item" type="button">+01</button></li>
-                                  <li><button class="dropdown-item" type="button">+05</button></li>
+                                    <li><button class="dropdown-item" type="button">+61</button></li>
+                                    <li><button class="dropdown-item" type="button">+01</button></li>
+                                    <li><button class="dropdown-item" type="button">+05</button></li>
                                 </ul>
-                              </div>
+                            </div>
                             <input type="text" class="form-control border-0" id="exampleFormControlInput1"
                                 placeholder="8213984731">
                         </span>
@@ -224,7 +218,12 @@
                             Fill your data correctly.
                         </span>
                     </div>
-                </div>                
+                    <div class="raw">
+                        <a class="btn w-100 mt-5 payorder-mobile"
+                            style="border-color: #5F2EEA; color:white; background-color: #5F2EEA;"
+                            href="./ticket/index.html" role="button">Pay your order</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -306,7 +305,6 @@
                 © 2020 Tickitz. All Rights Reserved.
             </p>
         </div>
-
     </footer>
 
 
