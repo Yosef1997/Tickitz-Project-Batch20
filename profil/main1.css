@@ -340,7 +340,7 @@ hr {
 .rectangle2 {
     background-color: #5F2EEA;
     position: absolute;
-    top: 96%;
+    top: 92%;
     left: 9.5%;
     height: 120px;
     width: 256px;
@@ -363,7 +363,7 @@ hr {
     opacity: 20%;
     height: 100px ;
     width: 100px;
-    top: 90.5%;
+    top: 86.5%;
     left: 22%;
     background-color:white;
 }
@@ -373,13 +373,13 @@ hr {
     opacity: 30%;
     height: 100px ;
     width: 100px;
-    top: 93%;
+    top: 89%;
     left: 23%;
     background-color:white;
 }
 .star {
     position: absolute;
-    top: 95.5%;
+    top: 91.5%;
     left: 24%;
 }
 .btn-update-changes {
