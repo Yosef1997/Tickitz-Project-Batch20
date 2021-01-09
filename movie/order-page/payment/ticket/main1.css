@@ -324,6 +324,67 @@ hr {
     font-family: 'Mulish',sans-serif;
 
 }
+/*profil*/
+.profil-mobile {
+    display: none;
+}
+
+.rectangle1 {
+    margin-left: 21.8%;
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: #ae95f1;
+    height: 110px;
+    width: 240px;
+}
+.rectangle2 {
+    background-color: #5F2EEA;
+    position: absolute;
+    top: 96%;
+    left: 9.5%;
+    height: 120px;
+    width: 256px;
+    border-radius: 10px;
+}
+.rectangle2 p{
+    color: white;
+    font-family: 'Mulish',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.rectangle2 p span{
+    color: white;
+    font-family: 'Mulish',sans-serif;
+    font-size: 10px;
+}
+.circle1 {
+    position: absolute;
+    border:white solid;
+    opacity: 20%;
+    height: 100px ;
+    width: 100px;
+    top: 90.5%;
+    left: 22%;
+    background-color:white;
+}
+.circle2 {
+    position: absolute;
+    border:white solid;
+    opacity: 30%;
+    height: 100px ;
+    width: 100px;
+    top: 93%;
+    left: 23%;
+    background-color:white;
+}
+.star {
+    position: absolute;
+    top: 95.5%;
+    left: 24%;
+}
+.btn-update-changes {
+    width: 40%;
+}
 @media only screen and (max-width: 576px) {
     /*navbar*/
     nav p{
@@ -453,6 +514,68 @@ hr {
     .ticket-web {
         display: none;
     }
-    
+    /*profil*/
+    .profil-web {
+        display: none;
+    }
+    .profil-mobile {
+        display: inline;
+    }
+    .rectangle1 {
+        margin-left: 28%;
+        margin-top: 3%;
+        background-color: #ae95f1;
+        height: 110px;
+        width: 240px;
+        left: 32%;
+    }
+    .rectangle2 {
+        background-color: #5F2EEA;
+        position: absolute;
+        top: 74.5%;
+        left: 30.5%;
+        height: 120px;
+        width: 256px;
+        border-radius: 10px;
+    }
+    .rectangle2 p{
+        color: white;
+        font-family: 'Mulish',sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .rectangle2 p span{
+        color: white;
+        font-family: 'Mulish',sans-serif;
+        font-size: 10px;
+    }
+    .circle1 {
+        position: absolute;
+        border:white solid;
+        opacity: 20%;
+        height: 100px ;
+        width: 100px;
+        top: 70%;
+        left: 62%;
+        background-color: white;
+    }
+    .circle2 {
+        position: absolute;
+        border:white solid;
+        opacity: 30%;
+        height: 100px ;
+        width: 100px;
+        top: 72%;
+        left: 64%;
+        background-color:white;
+    }
+    .star {
+        position: absolute;
+        top: 74%;
+        left: 67%;
+    }
+    .btn-update-changes {
+        width: 100%;
+    }
     
 }
