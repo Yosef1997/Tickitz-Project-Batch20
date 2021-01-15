@@ -385,6 +385,9 @@ hr {
 .btn-update-changes {
     width: 40%;
 }
+.order-history-cinemas-mobile {
+    display: none;
+}
 @media only screen and (max-width: 576px) {
     /*navbar*/
     nav p{
@@ -576,6 +579,12 @@ hr {
     }
     .btn-update-changes {
         width: 100%;
+    }
+    .order-history-cinemas-mobile {
+        display: block;
+    }
+    .order-history-cinemas-web{
+        display: none;
     }
     
 }
