@@ -35,30 +35,34 @@
 
 #btn-join {
     background-color: #5F2EEA;
+    border-radius: 4px;
 }
 
 .logo-mobile {
-    opacity: 0;
-    position: absolute;
+    display: none;
 }
 #col1-sign-in {
     padding-top: 16%;
 }
-@media only screen and (max-width: 576px) {
+.btn-sign-in {
+    width: 182px;
+    height: 64px;
+}
+@media only screen and (max-width: 992px) {
     #col1 {
-        opacity: 0;
-        position: absolute;
+        display: none;
     }
     #col1-sign-in {
-        opacity: 0;
-        position: absolute;
+        display: none;
+    }
+    .form-check {
+        display: none;
     }
     .btn-account {
         width: 100%;
     }
     .logo-mobile {
-        opacity: 100;
-        position: relative;
-        padding-bottom: 30px;
+        display: block;
+        margin-bottom: 50px;
     }
 }
