@@ -110,7 +110,7 @@ nav footer{
   width: 20%;
 }
 .card {
-  margin: 30px;
+  margin: 20px;
 }
 .card-cinema {
   font-family: 'Mulish',sans-serif;
@@ -157,6 +157,12 @@ nav footer{
   width: 121.13px;
   height: 40px;
   font-weight: bold;
+}
+.view-all {
+  font-family: 'Mulish',sans-serif;
+  font-size: 16px;
+  color:#5F2EEA;
+
 }
 /* section3 movie */
 
