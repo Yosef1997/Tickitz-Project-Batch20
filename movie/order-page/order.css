@@ -357,6 +357,12 @@ footer {
       height: 14px;
       width: 30px;
     }
+    .verticalSeat {
+      border-left: 2px green solid;
+    }
+    .horizontalSeat {
+      border-bottom: 2px red solid;
+    }
     .seating-key {
       font-family: 'Mulish',sans-serif;
       font-size: 16px;
