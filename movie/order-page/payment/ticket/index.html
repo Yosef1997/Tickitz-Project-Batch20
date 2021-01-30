@@ -9,43 +9,33 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="main1.css">
+    <link rel="stylesheet" href="ticket.css">
     <title>Ticket</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white" id="top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="./home/index.html">
+                <a class="navbar-brand" href="#top">
                     <img src="images/Tickitz 1tickitzungu.png" class="img-fluid" alt="...">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <div class="input-group border rounded-3 search-mobile">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <div class="input-group border rounded-3 nav-mobile">
                         <input class="form-control border-0" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn bg-transparent border-start-0" type="button" id="button-addon2">
                             <img src="images/Vectorsearch.png">
                         </button>
                     </div>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Movies</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Cinemas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Buy Ticket</a>
-                        </li>
-                        <li class="nav-item nav-link active dropdown pt-2 li-mobile">
-                            <a class="link-dark text-decoration-none dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item nav-link active dropdown pt-2 nav-mobile">
+                            <a class="link-dark text-decoration-none dropdown-toggle" href="#" role="button"
+                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                                 Location
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -54,297 +44,284 @@
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item li-mobile">
-                            <a class="nav-link active" aria-current="page" href="#">Sign up</a>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Movies</a>
                         </li>
-                        <li class="nav-item li-mobile">
-                            <p class="text-center">
-                                © 2020 Tickitz. All Rights Reserved.
-                            </p>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Cinemas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Buy tickets</a>
+                        </li>
+                        <li class="nav-item nav-mobile">
+                            <a class="nav-link active" aria-current="page" href="./sign-up/index.html">Sign up</a>
                         </li>
                     </ul>
-                    <form>
-                        <div class="dropdown">
-                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Location
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </div>
+                    <div class="nav-web">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item nav-link active dropdown pt-2">
+                                <a class="link-dark text-decoration-none dropdown-toggle" href="#" role="button"
+                                    id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Location
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                         <span class="d-flex border rounded-3">
                             <input class="border-0 ms-2 me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn" type="submit"><img src="images/Vectorsearch.png"></button>
+                            <button class="btn-search-web" type="submit"><img src="images/Vectorsearch.png"></button>
                         </span>
-                        <a href="./sign-up/index.html" class="btn btn-sign-up">Sign up</button></a>
-                    </form>
+                        <img src="./images/profil.png" alt="..." class="ms-5">
+                    </div>
+                    <footer>
+                        © 2020 Tickitz. All Rights Reserved.
+                    </footer>
                 </div>
             </div>
         </nav>
     </header>
     <!--section2-->
-    <div class="container-fluid ticket-web" id="col2">
-        <div class="row bg-white" id="bgticket">
-            <div class="col-sm text-center pt-5 ">
-                <p class="fs-3 fw-bold">Proof of Payment</p>
+    <div class="container-fluid section2 ticket-web">
+        <div class="row ticket-paper">
+            <div class="proofPayment">
+                Proof of Payment
             </div>
-            <!---->
-            <div class="raw p-5" id="ticket">
-                <div class="row">
-                    <!--kiri-->
-                    <div class="col-sm-8 headerleft" style="background-color: #5F2EEA;border-right: rgb(209, 202, 202) dotted;">
-                        <div class="raw d-flex justify-content-between headerticket">
-                            <img src="images/tickitz 1.png" class="mt-2" alt="">
-                            <p class="pt-3 me-5 text-white">Admit one</p>
+            <div class="row ticket">
+                <!--left-->
+                <div class="left">
+                    <div class="headerLeft">
+                        <img src="images/tickitz 1.png" class="img-ticket" alt="">
+                        <div>Admit one</div>
+                    </div>
+                </div>
+                <!--right-->
+                <div class="right">
+                    <div class="headerRight">
+                        <img src="images/tickitz 1.png" class="img-ticket" alt="">
+                    </div>
+                </div>
+                <div class="detailLeft">
+                    <div>
+                        <p class="ticket-title">Movies</p>
+                        <p class="ticket-data">Spider-Man: Homecoming</p>
+                    </div>
+                    <div class=" row detailLeft-row">
+                        <div  class="col-4">
+                            <p class="ticket-title">Date</p>
+                            <p class="ticket-data">07 July</p>
+                        </div>
+                        <div  class="col-4">
+                            <p class="ticket-title">Time</p>
+                            <p class="ticket-data">02:00pm</p>
+                        </div>
+                        <div class="col-3">
+                            <p class="ticket-title">Category</p>
+                            <p class="ticket-data">PG-13</p>
                         </div>
                     </div>
-                    <!--kanan-->
-                    <div class="col-sm-4 headerright" style="background-color: #5F2EEA">
-                        <div class="raw headerticket text-center">
-                            <img src="images/tickitz 1.png" class="mt-2" alt="">
+                    <div class="row detailLeft-row">
+                        <div class="col-3">
+                            <p class="ticket-title">Count</p>
+                            <p class="ticket-data">3 pieces</p>
+                        </div>
+                        <div class="col-3">
+                            <p class="ticket-title">Seats</p>
+                            <p class="ticket-data">C4, C5, C6</p>
+                        </div>
+                        <div class="col-3">
+                            <p class="ticket-title">Price</p>
+                            <p class="ticket-price">$30.00</p>
                         </div>
                     </div>
                 </div>
-                <div class="row kiri">
-                    <div class="col-sm-8 pe-5 leftbottom" style="border-right:rgb(209, 202, 202) dotted;">
-                        <div class="raw pt-4">
-                            <p class="text-muted title">Movies</p>
+                <div class="detailRight">
+                    <div class="detailRight-row1">
+                        <div>
+                            <p class="ticket-title">Movies</p>
+                            <p class="ticket-data">Spider-Man: Home...</p>
                         </div>
-                        <div class="raw">
-                            <p class="fw-bold">Spider-Man: Homecoming</p>
-                        </div>
-                        <div class="raw d-flex justify-content-between pe-2">
-                            <div>
-                                <p class="text-muted title">Date</p>
-                                <p class="fw-bold">07 July</p>
+                        <div class="d-flex justify-content-between">
+                            <div class="w-25">
+                                <p class="ticket-title">Date</p>
+                                <p class="ticket-data">07 July</p>
                             </div>
-                            <div>
-                                <p class="text-muted title">Time</p>
-                                <p class="fw-bold">02:00pm</p>
-                            </div>
-                            <div>
-                                <p class="text-muted title">Category</p>
-                                <p class="fw-bold">PG-13</p>
+                            <div class="w-50">
+                                <p class="ticket-title">Time</p>
+                                <p class="ticket-data">02:00pm</p>
                             </div>
                         </div>
-                        <div class="raw d-flex justify-content-between">
-                            <div>
-                                <p class="text-muted title">Count</p>
-                                <p class="fw-bold">3 pieces</p>
+                        <div class="d-flex justify-content-between">
+                            <div class="w-25">
+                                <p class="ticket-title">Count</p>
+                                <p class="ticket-data">3 pcs</p>
                             </div>
-                            <div>
-                                <p class="text-muted title">Seats</p>
-                                <p class="fw-bold">C4, C5, C6</p>
+                            <div class="w-50">
+                                <p class="ticket-title">Seats</p>
+                                <p class="ticket-data">C4, C5, C6</p>
                             </div>
-                            <div>
-                                <p class="text-muted title">Price</p>
-                                <p class="fw-bolder fs-5">$30.00</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div class="invisible w-25">
+                                <p class="ticket-title">Count</p>
+                                <p class="ticket-data">3 pieces</p>
+                            </div>
+                            <div class="w-50">
+                                <p class="ticket-title">Category</p>
+                                <p class="ticket-data">PG-13</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 rightbottom">
+                    <div class="detailRight-row2">
                         <div class="row">
-                            <div class="col-sm-8">
-                                <div class="raw pt-4">
-                                    <p class="text-muted title">Movies</p>
-                                </div>
-                                <div class="raw">
-                                    <p class="fw-bold">Spider-Man: Home...</p>
-                                </div>
-                                <div class="raw d-flex justify-content-between">
-                                    <div>
-                                        <p class="text-muted title">Date</p>
-                                        <p class="fw-bold">07 July</p>
-                                    </div>
-                                    <div class="me-2 pe-1">
-                                        <p class="text-muted title">Time</p>
-                                        <p class="fw-bold">02:00pm</p>
-                                    </div>
-                                </div>
-                                <div class="raw d-flex justify-content-between">
-                                    <div>
-                                        <p class="text-muted title">Count</p>
-                                        <p class="fw-bold">3 pieces</p>
-                                    </div>
-                                    <div>
-                                        <p class="text-muted title">Seats</p>
-                                        <p class="fw-bold">C4, C5, C6</p>
-                                    </div>
-                                </div>
-                                <div class="raw d-flex justify-content-between">
-                                    <div class="invisible">
-                                        <p class="text-muted title">Count</p>
-                                        <p class="fw-bold">3 pieces</p>
-                                    </div>
-                                    <div class="pe-3 me-1">
-                                        <p class="text-muted title">Category</p>
-                                        <p class="fw-bold">PG-13</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-1">
-                              <div class="raw pt-3">
-                                  <img src="images/Bitmap Copy 10barcode1.png" alt="">
-                                  <img src="images/Bitmap Copy 9barcode2.png" alt="">
-                                  <img src="images/Bitmap Copy 7barcode3.png" alt="">
-                                  <img src="images/Bitmap Copy 8barcode4.png" alt="">
-                              </div>
-                            </div>
+                            <img src="images/Bitmap Copy 10barcode1.png" class="img-barcode" alt="">
+                            <img src="images/Bitmap Copy 9barcode2.png" class="img-barcode" alt="">
+                            <img src="images/Bitmap Copy 7barcode3.png" class="img-barcode" alt="">
+                            <img src="images/Bitmap Copy 8barcode4.png" class="img-barcode" alt="">
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="text-center pb-5">
-                <span>                    
-                    <button class="btn bg-light border rounded-3 btn-download" type="submit">
-                        <img src="images/download 1download.png" alt="">
-                        Download
-                    </button>
-                </span>
-                <span>                    
-                    <button class="btn bg-light border rounded-3 btn-print" type="submit">
-                        <img src="images/printer 1print.png" alt="">
-                        Print
-                    </button>
-                </span>               
+                <div class="d-flex justify-content-center p-5">
+                    <div class="m-2">
+                        <button class="btn btn-downloadTicket" type="submit">
+                            <img src="images/download 1download.png" alt="">
+                            Download
+                        </button>
+                    </div>
+                    <div class="m-2">
+                        <button class="btn btn-printTicket" type="submit">
+                            <img src="images/printer 1print.png" alt="">
+                            Print
+                        </button>
+                    </div>
+                </div>            
             </div>
         </div>
     </div>
+    <!-- section mobile -->
     <section class="container-fluid ticket-mobile p-5">
-        <div class="raw bg-white pt-5 pb-5 ticket-paper">
-            <div class="col-sm text-center">
+        <div class="row bg-white ticketMobile-paper">
+            <div class="col-lg text-center">
                 <img src="images/bx_bxs-check-circlecheckcircle.png" alt="">
-                <p class="fs-3 fw-bold mt-2 mb-2">Thank You!</p>
-                <p class="text-muted">Your transaction was successful</p>
+                <div class="thankYou">Thank You!</div>
+                <div class="transactionSuccess">Your transaction was successful</div>
             </div>
-            <div class="raw text-center pt-4 pb-5 barcode-horizontal">
+            <div class="text-center pt-4 pb-5 barcode-horizontal">
                 <img src="images/Bitmap Copy 8barcodehorizonta.png" alt="">
                 <img src="images/Bitmap Copy 7horizontal.png" alt="">
                 <img src="images/Bitmap Copy 9horizontal.png" alt="">
                 <img src="images/Bitmap Copy 10horizontal.png" alt="">
             </div>
-            <div class="raw mt-5 ms-3 d-flex justify-content-between">
-                <div class="w-75">
-                    <p class="ticket-heading-mobile mb-1">Movie</p>
-                    <p class="ticket-detail-mobile fw-bold">Spider-Man: ..</p>
+            <div class="ticketMobile-detail">
+                <div class="ticketMobile-row1">
+                    <div class="ticket-heading-mobile">Movie</div>
+                    <div class="ticket-detail-mobile">Spider-Man: ..</div>
                 </div>
-                <div class="w-25">
-                    <p class="ticket-heading-mobile mb-1">Category</p>
-                    <p class="ticket-detail-mobile fw-bold">PG-13</p>
-                </div>
-            </div>
-            <div class="raw ms-3 d-flex justify-content-between">
-                <div class="w-75">
-                    <p class="ticket-heading-mobile mb-1">Date</p>
-                    <p class="ticket-detail-mobile fw-bold">07 Jul</p>
-                </div>
-                <div class="w-25">
-                    <p class="ticket-heading-mobile mb-1">Time</p>
-                    <p class="ticket-detail-mobile fw-bold">2:00pm</p>
+                <div class="ticketMobile-row2">
+                    <div class="ticket-heading-mobile">Category</div>
+                    <div class="ticket-detail-mobile">PG-13</div>
                 </div>
             </div>
-            <div class="raw ms-3 d-flex justify-content-between">
-                <div class="w-75">
-                    <p class="ticket-heading-mobile mb-1">Count</p>
-                    <p class="ticket-detail-mobile fw-bold">3 pcs</p>
+            <div class="ticketMobile-detail">
+                <div class="ticketMobile-row1">
+                    <div class="ticket-heading-mobile">Date</div>
+                    <div class="ticket-detail-mobile">07 Jul</div>
                 </div>
-                <div class="w-25">
-                    <p class="ticket-heading-mobile mb-1">Seats</p>
-                    <p class="ticket-detail-mobile fw-bold">C4, C5, C6</p>
+                <div class="ticketMobile-row2">
+                    <div class="ticket-heading-mobile">Time</div>
+                    <div class="ticket-detail-mobile">2:00pm</div>
                 </div>
             </div>
-            <div class="raw d-flex justify-content-between border rounded-3 m-3 pt-3 fw-bold ticket-total">                
-                    <p class="w-25 ps-3">Total</p>
-                    <p class="w-25">$30.00</p>                
+            <div class="ticketMobile-detail">
+                <div class="ticketMobile-row1">
+                    <div class="ticket-heading-mobile">Count</div>
+                    <div class="ticket-detail-mobile">3 pcs</div>
+                </div>
+                <div class="ticketMobile-row2">
+                    <div class="ticket-heading-mobile">Seats</div>
+                    <div class="ticket-detail-mobile">C4, C5, C6</div>
+                </div>
+            </div>
+            <div class="mt-3">
+                <div class="ticketMobile-price">
+                    <div class="ticket-totalMobile">Total</div>
+                    <div class="ticket-priceMobile">$30.00</div>    
+                </div>
             </div>
         </div>
     </section>
     <!--section3-->
-    <section class="container section4 pt-5">
+    <section class="container-fluid section6 pt-5">
         <div class="row">
-            <div class="col-sm-4 ps-3 pe-0 text-muted">
-                <a href="#"><img src="images/Tickitz 1tickitzungu.png" class="img-fluid" alt="..."></a>
-                <p class="pt-5">Stop waiting in line. Buy tickets</p>
-                <p>conveniently, watch movies quietly.</p>
+            <div class="col-lg-4 col1">
+                <a href="#top"><img src="images/Tickitz 1tickitzungu.png" class="img1-footer" alt="..."></a>
+                <p class="pt-4 lh-base">Stop waiting in line. Buy tickets
+                    conveniently, watch movies quietly.</p>
             </div>
-            <div class="col-sm ps-3 pb-3 explore">
-                <h4 class="pb-3">Explore</h4>
+            <div class="col-lg-2 col2">
+                <p class="fw-bolder">Explore</p>
                 <a class="text-decoration-none" href="#">
-                    <p>Cinemas</p>
+                    Cinemas
                 </a>
                 <a class="text-decoration-none" href="#">
-                    <p>Movies List</p>
+                    Movies List
                 </a>
                 <a class="text-decoration-none" href="#">
-                    <p>My Ticket</p>
+                    My Ticket
                 </a>
                 <a class="text-decoration-none" href="#">
-                    <p>Notification</p>
+                    Notification
                 </a>
             </div>
-            <div class="col-sm ps-3">
-                <h4>Our Sponsor</h4>
-                <div class=" sponsor">
-                    <a href="#"><img src="images/Vectorsponsor1.jpg" class="img-fluid pt-3 pb-3" alt="..."></a>
-                    <a href="#"><img src="images/Vectorsponsor2.jpg" class="img-fluid pt-3 pb-3" alt="..."></a>
-                    <a href="#"><img src="images/Vectorsponsor3.jpg" class="img-fluid pt-3 pb-3" alt="..."></a>
-                </div>
-
+            <div class="col-lg-3 col3">
+                <p class="fw-bolder">Our Sponsor</p>
+                <a href="#"><img src="images/Vectorsponsor1.jpg" class="img2-footer " alt="..."></a>
+                <a href="#"><img src="images/Vectorsponsor2.jpg" class="img2-footer " alt="..."></a>
+                <a href="#"><img src="images/Vectorsponsor3.jpg" class="img2-footer " alt="..."></a>
             </div>
-            <div class="col-sm ps-0 d-flex flex-column">
-                <div class="follow-us-mobile pt-3">
-                    <h4 class="ps-3">Follow us</h4>
-                    <a class="btn text-decoration-none" href="#" role="button">
-                        <img src="images/eva_facebook-outlinefacebook.png">
-                    </a>
-                    <a class="btn text-decoration-none" href="#" role="button">
-                        <img src="images/bx_bxl-instagramig.png">
-                    </a>
-                    <a class="btn text-decoration-none" href="#" role="button">
-                        <img src="images/eva_twitter-outlinetwitter.png">
-                    </a>
-                    <a class="btn text-decoration-none" href="#" role="button">
-                        <img src="images/feather_youtubeyoutube.png">
-                    </a>
-                </div>
-                <div class="follow-us-web d-flex flex-column position-absolute">
-                    <h4 class="ps-3">Follow us</h4>
-                    <span>
-                        <a class="btn text-decoration-none" href="#" role="button">
-                            <img src="images/eva_facebook-outlinefacebook.png">
-                            Tickitz Cinema id
-                        </a>
-                    </span>
-                    <span>
-                        <a class="btn text-decoration-none" href="#" role="button">
-                            <img src="images/bx_bxl-instagramig.png">
-                            tickitz.id
-                        </a>
-                    </span>
-                    <span>
-                        <a class="btn text-decoration-none" href="#" role="button">
-                            <img src="images/eva_twitter-outlinetwitter.png">
-                            tickitz.id
-                        </a>
-                    </span>
-                    <span>
-                        <a class="btn text-decoration-none" href="#" role="button">
-                            <img src="images/feather_youtubeyoutube.png">
-                            Tickitz Cinema id
-                        </a>
-                    </span>
-                </div>
+            <div class="col-lg col4 footer-web">
+                <p class="fw-bolder">Follow us</p>
+                <a class="text-decoration-none" href="#" role="button">
+                    <img src="images/eva_facebook-outlinefacebook.png">
+                    Tickitz Cinema id
+                </a>
+                <a class="text-decoration-none" href="#" role="button">
+                    <img src="images/bx_bxl-instagramig.png">
+                    tickitz.id
+                </a>
+                <a class="text-decoration-none" href="#" role="button">
+                    <img src="images/eva_twitter-outlinetwitter.png">
+                    tickitz.id
+                </a>
+                <a class="text-decoration-none" href="#" role="button">
+                    <img src="images/feather_youtubeyoutube.png">
+                    Tickitz Cinema id
+                </a>
+            </div>
+            <div class="col-lg footer-mobile">
+                <p class="fw-bolder">Follow us</p>
+                <a class="text-decoration-none" href="#" role="button">
+                    <img src="images/eva_facebook-outlinefacebook.png">
+                </a>
+                <a class="text-decoration-none" href="#" role="button">
+                    <img src="images/bx_bxl-instagramig.png">
+                </a>
+                <a class="text-decoration-none" href="#" role="button">
+                    <img src="images/eva_twitter-outlinetwitter.png">
+                </a>
+                <a class="text-decoration-none" href="#" role="button">
+                    <img src="images/feather_youtubeyoutube.png">
+                </a>
             </div>
         </div>
     </section>
-
-    <!--section6-->
-    <footer class="container">
-        <div class="col-sm">
-            <p class="text-center pt-3 pb-3">
+    <!--7-->
+    <footer class="container-fluid">
+        <div class="col p-5">
+            <p class="text-center">
                 © 2020 Tickitz. All Rights Reserved.
             </p>
         </div>

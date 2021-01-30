@@ -36,7 +36,7 @@ nav footer{
 .nav-web{
      display: flex;
    }
-   /* Navbar */
+/* Navbar */
    
    /* section2 payment */
 .section2 {
@@ -193,7 +193,7 @@ footer {
   }
   /* Section6 payment */
   
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 992px) {
     /* Navbar */
     header {
         padding: 0px 5px;
@@ -227,7 +227,7 @@ footer {
     }
     .payMethod-paper {
         padding: 30px;
-        margin: 30px 30px ;
+        margin: 30px 20px ;
         border-radius: 8px;
     }
     
@@ -247,6 +247,8 @@ footer {
         display: block;
     }
     /* section2 payment */
+
+    
     /* Section6 payment */
     .section6 {
         padding: 50px 20px 0px;
