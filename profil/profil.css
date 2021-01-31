@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+
+/* Navbar */
+header {
+    padding: 0px 50px;
+    }
+.btn-sign-up{
+     width: 120px;
+     height: 40px;
+     border: 1px #5F2EEA solid;
+     border-radius: 8px;
+     background-color: #5F2EEA;
+     color: white;
+     font-family: 'Mulish', sans-serif;
+   }
+.btn-search-web{
+     border: transparent;
+     background-color: transparent;
+   }
+nav li a{
+     font-family: 'Mulish', sans-serif;
+     font-weight: 600;
+     font-size: 16px;
+   }
+nav footer{
+     display: none;
+     text-align: center;
+     font-family: 'Mulish', sans-serif;
+     font-size: 13px;
+     font-weight: 300;
+     color: #6E7191;
+   }
+.nav-mobile{
+     display: none;
+   }
+.nav-web{
+     display: flex;
+   }
+/* Navbar */
+
+/* section2 profil */
+.section2 {
+    background-color: #f5f6f8;
+    padding: 50px 50px 70px;
+}
+.profilCard {
+    background-color: white;
+    border-radius: 8px;
+    padding: 40px;
+    margin: 0px 10px;
+}
+.profilDetail {
+    background-color: white;
+    border-radius: 8px;
+}
+.profil-web {
+    display: flex;
+    
+}
+.profilDetail-Account {
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-weight: 400;
+    color: #14142B;
+    text-decoration: none;
+}
+.profilDetail-orderHistory {
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-weight: 400;
+    color: #aaaaaa;
+    text-decoration: none;
+}
+.profilDetail-Information {
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: normal;
+    color: #14142B;
+    padding: 0px 0px 10px;
+    margin: 0%;
+}
+.profilDetail {
+    padding: 30px 20px;
+}
+.form-label {
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: normal;
+    color: #4E4B66;
+}
+.profilDetail-privacy {
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: normal;
+    color: #14142B;
+    margin: 40px 0px 40px;
+}
+.Account-Settings {
+    display: none;
+}
+/* section2 profil */
+
+
+
+/*Card Moviegoers*/
+.profil-mobile {
+    display: none;
+}
+
+.rectangle1 {
+    margin-left: 21.8%;
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: #ae95f1;
+    height: 118px;
+    width: 234px;
+}
+.rectangle2 {
+    background-color: #5F2EEA;
+    position: relative;
+    top: -13px;
+    left: -7px;
+    height: 125px;
+    width: 248px;
+    border-radius: 10px;
+}
+.rectangle2 .Moviegoers{
+    color: white;
+    font-family: 'Mulish',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.rectangle2 p {
+    color: white;
+    font-family: 'Mulish',sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.rectangle2 p span{
+    color: white;
+    font-family: 'Mulish',sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.circle1 {
+    position: relative;
+    border:white solid;
+    opacity: 30%;
+    height: 100px ;
+    width: 100px;
+    top: -150px;
+    left: 150px;
+    background-color:white;
+}
+.circle2 {
+    position: relative;
+    border:white solid;
+    opacity: 50%;
+    height: 100px ;
+    width: 100px;
+    top: 20px;
+    left: 10px;
+    background-color:white;
+}
+.star {
+    position: relative;
+    opacity: 100%;
+    top: 0px;
+}
+.profilName {
+    font-family: 'Mulish';
+    font-size: 20px;
+    font-weight: 600;
+    color: #14142B;
+    padding-top: 40px;
+
+}
+.profilMoviegoers {
+    font-family: 'Mulish';
+    font-size: 14px;
+    font-weight: 400;
+    color:#4E4B66;
+    padding-bottom: 40px;
+}
+.loyalityPoints {
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 600;
+    color:#4E4B66;
+    padding: 40px 0px;
+}
+.profilPoint {
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 400;
+    color:#4E4B66;
+    text-align: center;
+    padding: 40px 0px 20px;
+}
+.progress-moviegoers {
+    background-color: #5F2EEA;
+    border-radius: 8px;
+}
+.btn-updateChanges {
+    width: 360px;
+    height: 56px;
+    background-color: #5F2EEA;
+    border-radius: 4px;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 15px;
+}
+/*Card Moviegoers*/
+
+
+/* Section6 profil*/
+.img1-footer {
+    Width: 170,23px;
+    Height: 43,94px;
+  }
+.section6 {
+    padding: 50px 100px 0px;
+  }
+.section6 .col1{
+    font-family: 'Mulish',sans-serif;
+    font-size: 16px;
+    color: #6E7191;
+  }
+.section6 .col2 p{
+    font-family: 'Mulish',sans-serif;
+    font-size: 16px;
+    color: #000000;
+  }
+.section6 .col2 a {
+    font-family: 'Mulish',sans-serif;
+    font-size: 14px;
+    color: #4E4B66;
+    display: block;
+    margin-top: 15px;
+  }
+.section6 .col3 p{
+    font-family: 'Mulish',sans-serif;
+    font-size: 16px;
+    color: #000000;
+  }
+.section6 .col3 a {
+    display: block;
+    margin-top: 25px;
+  }
+.section6 .col4 p{
+    font-family: 'Mulish',sans-serif;
+    font-size: 16px;
+    color: #000000;
+  }
+.section6 .col4 a{
+    font-family: 'Mulish',sans-serif;
+    font-size: 14px;
+    color: #4E4B66;
+    display: block;
+    margin-top: 25px;
+  }
+.footer-mobile {
+    display: none;
+  }
+footer {
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    color: #4E4B66;
+  }
+  /* Section6 profil */
+
+
+
+@media only screen and (max-width: 992px) {
+    /* Navbar */
+    header {
+        padding: 0px 5px;
+    }
+    .nav-mobile{
+        display: flex;
+    }
+    .nav-web{
+        display: none;
+    }
+    nav footer{
+        display: block;
+        text-align: center;
+    }
+    /* Navbar */
+
+/* section2 profil */
+.profilCard {
+    margin: 0px 0px 40px;
+}
+.profil-web {
+    display: none;
+}
+.profilDetail {
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 0px;
+}
+.profilDetail-Information {
+    padding-top: 40px;
+}
+.Account-Settings {
+    display: block;
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-weight: 600;
+    color: #14142B;
+    padding-bottom: 40px;
+}
+/* section2 profil */
+
+    /*profil*/
+    .profil-web {
+        display: none;
+    }
+    .profil-mobile {
+        display: inline;
+    }
+    .rectangle1 {
+        margin-left: -3%;
+        margin-top: 3%;
+        background-color: #ae95f1;
+        height: 118px;
+        width: 234px;
+    }
+    .rectangle2 {
+        background-color: #5F2EEA;
+        position: relative;
+        top: -13px;
+        left: -7px;
+        height: 125px;
+        width: 248px;
+        border-radius: 10px;
+    }
+    .rectangle2 p{
+        color: white;
+        font-family: 'Mulish',sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .rectangle2 p span{
+        color: white;
+        font-family: 'Mulish',sans-serif;
+        font-size: 10px;
+    }
+    .btn-updateChanges {
+        width: 279px;
+        height: 40px;
+        padding: 5px;
+    }
+        /* profil */
+
+
+    /* Section6 ticket */
+    .section6 {
+        padding: 50px 20px 0px;
+    }
+    .section6 .col1 {
+        margin-top: 35px;
+    }
+    .section6 .col2 {
+        margin-top: 35px;
+    }
+    .section6 .col2 a {
+        display: inline;
+        margin-right: 25px;
+    }
+    .section6 .col3 {
+        margin-top: 35px;
+    }
+    .section6 .col3 a {
+        display: inline;
+        margin-right: 25px;
+    }
+    .section6 .col3 a .img2-footer {
+        height: 29px;
+        margin-top: 15px;
+    }
+    .footer-web {
+        display: none;
+    }
+    .footer-mobile {
+        margin-top: 35px;
+        display: inline;
+    }
+    .footer-mobile a img {
+        margin-right: 35px;
+    }
+      
+      /* Section6 ticket */
+
+    
+}
