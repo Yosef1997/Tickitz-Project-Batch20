@@ -1,6 +1,6 @@
 # Tickitz-Project-Batch20
 
-![alt text](https://github.com/Yosef1997/Tickitz-Project-Batch20/blob/main/Screenshot(111).png?raw=true)
+![github-small](https://github.com/Yosef1997/Tickitz-Project-Batch20/blob/main/images/Screenshot(110).png)
 
 ![Screenshot](Screenshot (111).png)
 ![Screenshot](Screenshot (112).png)
